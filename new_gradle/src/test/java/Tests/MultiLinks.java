@@ -10,7 +10,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 public class MultiLinks extends OptionsTests {
 
     @Test
-    public void myFirstTest() {
+    public void multiLinks() {
         //*************************
         //Заходим на сайт и авторизуемся
         //*************************
