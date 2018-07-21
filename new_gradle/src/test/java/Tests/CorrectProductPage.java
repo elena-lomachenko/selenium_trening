@@ -1,5 +1,6 @@
 package Tests;
 
+import Other.OptionsTests;
 import javafx.scene.paint.Color;
 import junit.framework.Assert;
 import org.junit.Test;
