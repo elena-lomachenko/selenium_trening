@@ -1,8 +1,8 @@
 package Tests;
 
+import Other.OptionsTests;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
@@ -12,7 +12,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElementValue;
-import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
 public class Countries extends OptionsTests {
 

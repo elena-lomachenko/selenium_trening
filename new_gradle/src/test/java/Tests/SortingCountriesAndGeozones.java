@@ -1,5 +1,6 @@
 package Tests;
 
+import Other.OptionsTests;
 import junit.framework.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -7,8 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
-
-import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
 
 public class SortingCountriesAndGeozones extends OptionsTests {

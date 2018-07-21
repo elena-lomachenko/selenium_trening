@@ -1,5 +1,6 @@
 package Tests;
 
+import Other.OptionsTests;
 import Other.RandomString;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -8,12 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.security.NoSuchAlgorithmException;
-import java.security.SecureRandom;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.concurrent.ThreadLocalRandom;
 
 
 public class NewUser extends OptionsTests {
