@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f70664d5-a9b6-45f5-95dc-a56a569d8aeb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_gradle/src/test/java/Tests/MultiLinks2.java" beforeDir="false" afterPath="$PROJECT_DIR$/new_gradle/src/test/java/Tests/MultiLinks2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/new_gradle/.gradle/" />
     <ignored path="$PROJECT_DIR$/new_gradle/build/" />
@@ -39,11 +38,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MultiLinks2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MultiLinks2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/MultiLinks2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+            <state relative-caret-position="731">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Countries.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/Countries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="28" column="114" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="114" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortingCountriesAndGeozones.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/SortingCountriesAndGeozones.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,6 +87,7 @@
     <findStrings>
       <find>other</find>
       <find>sub_menu_items</find>
+      <find>assertTrue</find>
     </findStrings>
     <replaceStrings>
       <replace>menu</replace>
@@ -454,11 +478,12 @@
         <option value="$PROJECT_DIR$/new_gradle/src/test/java/Tests/MultiLinks.java" />
         <option value="$PROJECT_DIR$/new_gradle/src/test/java/Tests/OptionsTests.java" />
         <option value="$PROJECT_DIR$/new_gradle/src/test/java/Tests/StickersOfDucks.java" />
-        <option value="$PROJECT_DIR$/new_gradle/src/test/java/Tests/Countries.java" />
         <option value="$PROJECT_DIR$/new_gradle/src/test/java/Other/Random.java" />
         <option value="$PROJECT_DIR$/new_gradle/src/test/java/Tests/NewUser.java" />
         <option value="$PROJECT_DIR$/new_gradle/src/test/java/Other/RandomString.java" />
         <option value="$PROJECT_DIR$/new_gradle/src/test/java/Tests/MultiLinks2.java" />
+        <option value="$PROJECT_DIR$/new_gradle/src/test/java/Tests/Countries.java" />
+        <option value="$PROJECT_DIR$/new_gradle/src/test/java/Tests/SortingCountriesAndGeozones.java" />
       </list>
     </option>
   </component>
@@ -483,6 +508,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -545,8 +572,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -578,7 +603,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MultiLinks2">
+  <component name="RunManager" selected="JUnit.SortingCountriesAndGeozones">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -674,7 +699,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StickersOfDucks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortingCountriesAndGeozones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="new_gradle_test" />
       <extension name="coverage">
         <pattern>
@@ -685,7 +710,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.StickersOfDucks" />
+      <option name="MAIN_CLASS_NAME" value="Tests.SortingCountriesAndGeozones" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -736,19 +761,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StickersOfDucks" />
       <item itemvalue="JUnit.Countries" />
       <item itemvalue="JUnit.NewUser" />
       <item itemvalue="JUnit.NewUser.newUser" />
       <item itemvalue="JUnit.MultiLinks2" />
+      <item itemvalue="JUnit.SortingCountriesAndGeozones" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SortingCountriesAndGeozones" />
         <item itemvalue="JUnit.MultiLinks2" />
         <item itemvalue="JUnit.NewUser" />
         <item itemvalue="JUnit.NewUser.newUser" />
         <item itemvalue="JUnit.Countries" />
-        <item itemvalue="JUnit.StickersOfDucks" />
       </list>
     </recent_temporary>
   </component>
@@ -774,17 +799,13 @@
       <workItem from="1530957339634" duration="1765000" />
       <workItem from="1530959163049" duration="1766000" />
       <workItem from="1530960982676" duration="1777000" />
-      <workItem from="1530962976929" duration="391000" />
+      <workItem from="1530962976929" duration="641000" />
+      <workItem from="1532175013370" duration="1685000" />
+      <workItem from="1532176806722" duration="1763000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewUser - 2018.07.07 at 17h 45m 34s.xml">
-      <configuration name="NewUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewUser - 2018.07.07 at 17h 46m 05s.xml">
-      <configuration name="NewUser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NewUser - 2018.07.07 at 17h 57m 32s.xml">
       <configuration name="NewUser" configurationId="JUnit" />
     </history-entry>
@@ -809,9 +830,15 @@
     <history-entry file="MultiLinks2 - 2018.07.07 at 18h 31m 20s.xml">
       <configuration name="MultiLinks2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MultiLinks2 - 2018.07.07 at 18h 36m 48s.xml">
+      <configuration name="MultiLinks2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortingCountriesAndGeozones - 2018.07.21 at 19h 59m 58s.xml">
+      <configuration name="SortingCountriesAndGeozones" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43272000" />
+    <option name="totallyTimeSpent" value="46970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -824,18 +851,18 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2987897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -857,30 +884,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/MultiLinks2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/MultiLinks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/NewUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,9 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,13 +1124,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/MultyLinks2.java" />
-    <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/Countries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/text/SimpleDateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1187,9 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,8 +1196,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/MultiLinks2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        <state relative-caret-position="731">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/junit/framework/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/Countries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="28" column="114" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_gradle/src/test/java/Tests/SortingCountriesAndGeozones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
